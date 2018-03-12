@@ -12,3 +12,4 @@ CONTRIBUTORS
 - Johnson-Awah Alfred
 - Nwachinemere Ibeagi
 - Kamsi Oleka
+- Okoene Somto
