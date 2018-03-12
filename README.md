@@ -1,5 +1,5 @@
 # workIT
-WorkIT is an initiaive of Nigerian University Studnets which started its implementation on the 8th of march 2018. WorkIT is a web application which aims to make it easier to get what you wwant done by few clicks. In the nearest future we hope to turn this project into a bigger one, a software company.
+WorkIT is an Initiaive of Nigerian University Students which started its implementation on the 8th of March 2018. WorkIT is a web application which aims to make it easier to get what you wwant done by few clicks. In the nearest future we hope to turn this project into a bigger one, a Software Company.
 
 How it works 
 -Login/SignUp as a user
