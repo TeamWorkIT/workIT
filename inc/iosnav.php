@@ -1,7 +1,5 @@
-<?php session_start();
-?>
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#1c2a48">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top pink">
 
     <!-- Navbar brand -->
     <a class="navbar-brand" href="index.php"><img src="img/logo1.png" class="img responsive img-fuid" height="50"></a>
@@ -46,7 +44,7 @@
         </form>
         
         <?php
-if (isset($_SESSION['email'])) {
+if (isset($_SESSION['username'])) {
     echo '
         <form action="inc/logout.inc.php" method="POST">
             <button class="btn btn-warning" type="submit" name="submit">Logout</button>
