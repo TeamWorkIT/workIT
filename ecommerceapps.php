@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ecommerce Websites | GodzFingers MDB</title>
+<title>Ecommerce Websites |WorkIT</title>
 <?php include 'inc/header.php'; ?>
 </head>
 <body>
 <!--Main Navigation-->
 <header>
-<?php include'inc/nav.php'; ?>        
+<?php include'inc/ecomnav.php'; ?>        
 </header>
 <!--Main Navigation-->
 

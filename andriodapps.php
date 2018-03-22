@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html lang="en">
 <head>
-<title>AndriodApplications| GodzFingers MDB</title>
+<title>AndriodApplications| WorkIT</title>
 <?php include 'inc/header.php'; ?>
 </head>
 <body>
 <!--Main Navigation-->
 <header>
-<?php include'inc/nav.php'; ?>        
+<?php include'inc/andriodnav.php'; ?>        
 </header>
 <!--Main Navigation-->
 

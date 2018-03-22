@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Graphic Designs| GodzFingers MDB</title>
@@ -7,7 +9,7 @@
 <body>
 <!--Main Navigation-->
 <header>
-<?php include'inc/nav.php'; ?>        
+<?php include'inc/grapnav.php'; ?>        
 </header>
 <!--Main Navigation-->
 

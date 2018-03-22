@@ -1,13 +1,16 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ios Applications| GodzFingers MDB</title>
+<title>Ios Applications| WorkIT</title>
 <?php include 'inc/header.php'; ?>
 </head>
 <body>
 <!--Main Navigation-->
 <header>
-<?php include'inc/nav.php'; ?>        
+<?php include'inc/iosnav.php'; ?>        
 </header>
 <!--Main Navigation-->
 

@@ -19,18 +19,18 @@
         <!--Grid column-->
         <div class="col-md-7">
 <div class="view overlay hm-white-light z-depth-1-half">
-    <img src="img/main.jpg" class="img-fluid " alt="">
+    <img src="img/main.jpg" class="img-fluid wow fadeInUp" alt="">
     <div class="mask"></div>
 </div>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-5">
+        <div class="col-md-5 animated tada">
 
     
     <h1></h1>
-    <hr>
+        <hr>
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem
         voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
@@ -270,7 +270,7 @@
                     <li><a href="#!">Link 4</a></li>
                 </ul>
             </div>
-            <!--/.Second column-->
+            <!--/.Second <col>umn-->
         </div>
     </div>
     <!--/.Footer Links-->
