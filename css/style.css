@@ -1,0 +1,28 @@
+/* Your custom styles */
+*{
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+a:link{
+	color: black;
+}
+a:visited{
+	color: tomato;
+}
+a:hover{
+	color: grey;
+}
+a:active{
+	color: lightgrey;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
