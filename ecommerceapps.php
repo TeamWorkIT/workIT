@@ -1,6 +1,14 @@
 <?php
 session_start();
-?><!DOCTYPE html>
+if (!isset($_SESSION['email'])) {
+	header("Location: index.php");
+}
+else{
+	header("Location: ecommerceapps.php");
+}
+
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Ecommerce Websites |WorkIT</title>

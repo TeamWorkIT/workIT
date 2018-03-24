@@ -1,6 +1,13 @@
 <?php
 session_start();
-?><!DOCTYPE html>
+if (!isset($_SESSION['email'])) {
+	header("Location: index.php");
+}
+else{
+	header("Location: andriodapps.php");
+}
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>AndriodApplications| WorkIT</title>

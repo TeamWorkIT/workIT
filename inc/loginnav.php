@@ -1,5 +1,5 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top grey">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #1c2a48">
 
     <!-- Navbar brand -->
     <a class="navbar-brand" href="index.php"><img src="img/logo1.png" class="img responsive img-fuid" height="50"></a>
@@ -12,7 +12,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Links -->
-        <ul class="navbar-nav mr-auto">
+
+<?php
+
+if (isset($_SESSION['email'])) {
+    echo '<ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="webapps.php">WebApplications</a>
             </li>
@@ -42,8 +46,18 @@
         <form class="form-inline">
             <input class="form-control mr-sm-2"  type="text" placeholder="Search" aria-label="Search">
         </form>
+  ';
+}
+else{
+    echo'
+<span class="animated tada infinite text-light"><b>Hello There! </b>SignUp or Login to get started!</span>
+        ' ;
+}
+?>      
+
+
         <?php
-if (isset($_SESSION['username'])) {
+if (isset($_SESSION['email'])) {
     echo '
         <form action="inc/logout.inc.php" method="POST">
             <button class="btn btn-warning" type="submit" name="submit">Logout</button>
@@ -53,13 +67,14 @@ if (isset($_SESSION['username'])) {
 else
 {
     echo '
-        <form>
-            <a type="button" class="btn" href="login.php">Login</a>
+        <form class="" style="margin-left:700px;">
+            <a type="button" class="btn btn-danger" href="login.php">Login</a>
+
+            <a type="button" class="btn btn-success" href="signup.php">Signup</a>
         </form>
         ';
 }
-        ?>
-    </div>
+        ?>    </div>
     <!-- Collapsible content -->
 
 </nav>
