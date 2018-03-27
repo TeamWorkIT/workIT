@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login |WorkIT SoftWare Company Limited</title>
+    <title>Login | WorkIT SoftWare Company Limited</title>
     <?php include'inc/header.php'; ?>
     </head>
 <body style="background-image: url(img/backg.jpg);background-size: cover;">

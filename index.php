@@ -1,6 +1,8 @@
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <title>WorkIT SoftWare Company Limited</title>
     <?php include'inc/header.php'; ?>
     </head>
@@ -8,12 +10,30 @@
 <!--Main Navigation-->
 <header>
 <?php include'inc/nav.php'; ?>        
+
 </header>
 <!--Main Navigation-->
 <!--Main layout-->
+
 <main>
 <!--Main container-->
+
 <div class="container" style="margin-top: 70px;">
+<div class="row">
+    <div class="col-md-12">
+        
+<span  style="width: 100%;margin-left: 450px;" class="alert alert-success">
+    <?php
+if (isset($_SESSION['email'])) {
+    echo "You are logged in";
+}else{
+    echo "Welcome! WorkIT";
+}
+
+    ?>
+</span>
+    </div>
+</div>
     <!--Grid row-->
     <div class="row justify-content-md-center">
         <!--Grid column-->
@@ -21,12 +41,14 @@
 <div class="view overlay hm-white-light z-depth-1-half">
     <img src="img/main.jpg" class="img-fluid wow fadeInUp" alt="">
     <div class="mask"></div>
+
+</span>
 </div>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-5 animated tada">
+        <div class="col-md-5">
 
     
     <h1></h1>

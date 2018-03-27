@@ -33,11 +33,13 @@ $email = $_POST['email'];
 				//de-hasing the password
 				$hashedPwdCheck = password_verify($password, $row['password']);
 				if ($hashedPwdCheck == false) {
-	header("Location: ../index.php?login=IncorrectPassword");
+					$Errmsg = 'Incorrect Password,Try Again';
+	header("Location: ../login.php?login=IncorrectPassword");
 	exit();		
 		}
 		elseif ($hashedPwdCheck == true) {
 			//login thr user here
+			$Errmsg = 0;
 			$_SESSION['username'] = $row['username'];
 			$_SESSION['firstname'] = $row['firstname'];
 			$_SESSION['lastname'] = $row['lastname'];
