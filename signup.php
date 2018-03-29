@@ -34,6 +34,7 @@ session_start();
 		<br>
 
 		<input type="text" name="pwd" class="form-control"  placeholder="Password">
+		<input type="file" name="imgupload" class="btn btn-default" value="" placeholder="Upload a Photo">
 		<button name="submit" type="submit" class="btn btn-success">Sign Up</button>
 		Already a user? <a href="Login.php">Login</a>
 	</form>
