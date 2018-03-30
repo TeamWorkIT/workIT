@@ -62,8 +62,8 @@ if (isset($_SESSION['email'])) {
         natus quaerat!</p>
     <a href="!#" class="btn btn-outline-danger btn-rounded waves-effect">Blog <i class="fa fa-globe"></i></a>
 
-<a class="btn btn-outline-success btn-rounded waves-effect" href="">NewsLetter <i class="fa fa-group"></i></a>
-    <a class="btn btn-outline-warning btn-rounded waves-effect" href="">Donate <i class="fa fa-money"></i></a>
+<a class="btn btn-outline-success btn-rounded waves-effect" href="">NewsLetter <i class="fas fa-users"></i></a>
+    <a class="btn btn-outline-warning btn-rounded waves-effect" href="">Donate <i class="fas fa-credit-card"></i></a>
 
 
 

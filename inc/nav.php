@@ -45,13 +45,13 @@ if (isset($_SESSION['email'])) {
         <!-- Links -->
 
         <!-- Search form -->
-        <form class="form-inline">
+        <form class="form-inline"><i class="fas fa-tag"></i>
             <input class="form-control mr-sm-2"  type="text" placeholder="Search" aria-label="Search">
         </form>
         <form action="inc/logout.inc.php" method="POST">
             <button class="btn btn-warning" type="submit" name="submit">Logout</button>
         </form>
-        <a href="user/profile.php" class="btn btn-success"><i class="fa fa-gear"></i></a>
+        <a href="user/profile.php" class="btn btn-success"><i class="fas fa-cogs"></i></a>
             </div>
     <!-- Collapsible content -->
 </nav>
