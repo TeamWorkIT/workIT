@@ -15,4 +15,5 @@
 <!-- Google icon inport -->
 <link rel="stylesheet" href="fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="shortcut icon" type="image/jpg" href="img/logo1.png">
+<link href="js/main.js">
 </head>

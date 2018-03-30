@@ -20,7 +20,7 @@ if (isset($_SESSION['email'])) {
         <!-- Links -->
 <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="webapps.php">WebApplications</a>
+                <a class="nav-link" href="programming_tech.php">Programming&Tech</a>
             </li>
 
             <li class="nav-item">
@@ -28,17 +28,17 @@ if (isset($_SESSION['email'])) {
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="ecommerceapps.php">ModernE-commerce</a>
+                <a class="nav-link" href="digitalmarketing.php">DigitalMarketing</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="wordPressapps.php">WordPressCMSApps</a>
+                <a class="nav-link" href="video_and_animation.php">Video&Animation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="andriodapps.php">AndriodApps</a>
+                <a class="nav-link" href="music_and_audio.php">Musci&Audio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="iosapps.php">IosApps</a>
+                <a class="nav-link" href="business.php">Business</a>
             </li>
 
     </ul>

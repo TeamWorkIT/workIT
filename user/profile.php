@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <title>User Profile| GodzFingers MDB</title>
-<?php include 'inc/header.php'; ?>
+<?php include '../inc/header.php'; ?>
 </head>
 <body>
 <!--Main Navigation-->
 <header>
-<?php include'inc/nav.php'; ?>        
+<?php include'../inc/nav.php'; ?>        
 </header>
 <!--Main Navigation-->
 

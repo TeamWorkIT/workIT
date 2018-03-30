@@ -1,7 +1,7 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #006666;">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color:#003333;">
 
-      <!-- Navbar brand -->
+    <!-- Navbar brand -->
     <a class="navbar-brand" href="index.php"><img src="img/logo1.png" class="img responsive img-fuid" height="50"></a>
 
     <!-- Collapse button -->
