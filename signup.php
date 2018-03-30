@@ -16,6 +16,7 @@ session_start();
 </header>
 <!--Main Navigation-->
 <!--Main layout-->
+
 <main style="margin-top: 100px;text-align: center;width: 360px;margin-left: 500px;opacity: 0.8">
 	
 	<div class="form form-control" >

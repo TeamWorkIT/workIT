@@ -131,7 +131,7 @@ if (isset($_SESSION['email'])) {
                 <h4 class="card-title">Business</h4>
                 <!--Text-->
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="digitalmarketing.php" class="btn btn-outline-success"><i class="fa fa-arrow-right"></i>Explore</a>
+                <a href="digitalmarketing.php" class="btn btn-outline-success"><i class="fa fa-angle-double-right"></i>Explore</a>
             </div>
         </div>
         <!--/.Card-->

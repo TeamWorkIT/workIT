@@ -16,4 +16,11 @@
 <link rel="stylesheet" href="fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="shortcut icon" type="image/jpg" href="img/logo1.png">
 <link href="js/main.js">
+<!-- <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"> -->
+
+<!-- <link rel="stylesheet" type="text/css" href="css/fontawesome.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css"> -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 </head>

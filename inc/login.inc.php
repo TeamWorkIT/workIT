@@ -51,7 +51,7 @@ $email = $_POST['email'];
             $lastname = $row['lastname'];
             $username = $row['username'];
             $logintime = $row['TIME'];
-			header("Location: ../Index.php?email=$email&uid=$uid&registratiodate=$logintime");
+			header("Location: ../home.php?email=$email&uid=$uid&registratiodate=$logintime");
 			exit();
 		}
 			}
