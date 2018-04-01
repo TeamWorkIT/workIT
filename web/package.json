@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "my practice website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.1.0",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

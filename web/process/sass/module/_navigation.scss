@@ -1,0 +1,32 @@
+.navbar {
+    background-color: $blue;
+    border: none;
+    height: 50px;
+    .container {
+        width: 100%;
+        button {
+            display: none;
+        }
+        a.navbar-brand {
+            margin-left: 20px;
+            font-size: 35px;
+            font-family: $font-highlight;
+            text-decoration: none;
+            color: $color-background;
+        }
+        .navbar-right {
+            ul {
+                list-style: none;
+                li {
+                    float: left;
+                    font-family: $font-highlight;
+                    font-size: 15px;
+                    padding: 0 15px;
+                }
+                li a {
+                    color: $color-background;
+                }
+            }
+        }
+    }
+}

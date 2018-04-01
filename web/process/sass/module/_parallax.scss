@@ -1,0 +1,45 @@
+.parallax-window {
+    min-height: 400px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    .text-center {
+        padding-top: 120px;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $font-highlight;
+        margin-bottom: 15px;
+        color: $white;
+    }
+    p {
+        font-size: 20px;
+        font-family: $font-main;
+        color: $white;
+    }
+    .sub-parallax {
+        .form-inline {
+            .form-group {
+                button {
+                    display: inline-block;
+                    padding: 6px 12px;
+                    margin-top: 20px;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 4px;
+                    font-family: $font-main;
+                    user-select: none;
+                    background: $blue;
+                    color: $white;
+                    &:hover {
+                        background: $white;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+    @include backImg('../images/3.jpg', 500px);
+}

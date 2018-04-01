@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    margin-bottom: 100px;
+    #feature & {
+        h2 {
+            font-size: 20px;
+            font-family: $font-main;
+        }
+    }
+    h3 {
+        width: 100%;
+        margin-top: 90px;
+        text-align: center;
+        font-size: 35px;
+        font-family: $font-highlight;
+    }
+    #single-p {
+        text-align: center;
+        font-size: 15px;
+        font-family: $font-main;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .hi-icon-effect {
+        height: 320px;
+        &:hover {
+            background: $whitesmoke;
+            border-radius: 6px;
+        }
+    }
+    .text-center i {
+        font-size: 30px;
+        background: $blue;
+        color: white;
+        &:hover {
+            background: white;
+            color: $blue;
+        }
+    }
+    i.fa {
+        margin: 40px 0;
+        display: inline-block;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-style: normal;
+        font-weight: normal;
+    }
+}

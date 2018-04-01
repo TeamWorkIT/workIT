@@ -1,0 +1,42 @@
+button {
+    %btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 10px;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        font-family: $font-highlight;
+        user-select: none;
+        color: $white;
+        background: $red;
+    }
+    .btn-primary {
+        @extend %btn;
+        &:hover {
+            color: $blue;
+            background-color: $white;
+            border-color: $white;
+        }
+    }
+}
+
+%li.heading {
+    border-radius: 8px;
+    width: 280px;
+    height: 65px;
+    margin-left: -45px;
+}
+
+$color-heading-names: ('one', 'two', 'three', 'four', 'five', 'six', 'seven');
+$color-heading-values: ($red, $green, $orange, $blue, $blue, $red, $blue);
+@each $name in $color-heading-names {
+    $i: index($list: $color-heading-names, $value: $name);
+    .heading-#{$name} {
+        @extend %li;
+        background: nth($list: $color-heading-values, $n: $i);
+    }
+}

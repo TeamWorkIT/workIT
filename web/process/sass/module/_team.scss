@@ -1,0 +1,68 @@
+#our-team {
+    width: 100%;
+    background: $whitesmoke;
+    min-height: 1000px;
+    .container {
+        width: 90%;
+        margin-bottom: 20px;
+        .text-center {
+            margin-top: 100px;
+            h3 {
+                font-family: $font-highlight;
+                font-size: 35px;
+            }
+            p {
+                font-family: $font-main;
+                font-size: 15px;
+            }
+        }
+    }
+    .row1 {
+        width: 80%;
+        margin: auto;
+        .col-md-4 {
+            img {
+                margin-bottom: 30px;
+            }
+            h2 {
+                font-family: $font-highlight;
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+            h4 {
+                color: $blue;
+                font-family: $font-highlight;
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
+            p {
+                font-size: 12px;
+                font-family: $font-main;
+            }
+        }
+    }
+    .team {
+        .container {
+            height: 600px;
+            margin-bottom: 0;
+            img {
+                border-radius: 15px;
+            }
+            h2 {
+                font-family: $font-highlight;
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+            h4 {
+                color: $blue;
+                font-family: $font-highlight;
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
+            p {
+                font-size: 12px;
+                font-family: $font-main;
+            }
+        }
+    }
+}
